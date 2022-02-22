@@ -7,7 +7,9 @@
 - FRAMEWORKS : **[Fastify](https://www.npmjs.com/package/fastify)** & **[Prisma (ORM)](https://www.prisma.io/)**
 
 ### ℹ️ Notes
-The scope of this sample project is to handle Pokemon data by using a public available API, in this case [PokeAPI](https://pokeapi.co/docs/v2), and expose routes to that let clients interact with the data in the way is discribed below.
+The scope of this sample project is to handle Pokemon data and expose routes that let clients interact with it in the way that is discribed below.
+
+The orginal Pokemon data is found at [PokeAPI](https://pokeapi.co/docs/v2)
 
 ### 🏗️ Tasks
 - Create an API which will have the following features:
