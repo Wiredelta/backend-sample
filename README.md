@@ -1,17 +1,25 @@
 # ✨Wiredelta Backend Sample Tasks ✨
-## Project : Pokermon Database viewer
+## Project : Pokemon Manager API
 
 ### 🚨 Requirements
-- DATABASE : **Postgres**
-- CODE : **TypeScript (Node.js)**
-- FRAMEWORK : **[Express](https://www.npmjs.com/package/express)**
+- DATABASE : **PostgreSQL**
+- LANGUAGE : **TypeScript (Node.js)**
+- FRAMEWORKS : **[Fastify](https://www.npmjs.com/package/fastify)** & **[Prisma (ORM)](https://www.prisma.io/)**
 
 ### ℹ️ Notes
-ADD NOTES HERE
+The scope of this sample project is to handle Pokemon data by using a public available API, in this case [PokeAPI](https://pokeapi.co/docs/v2), and expose routes to that let clients interact with the data in the way is discribed below.
 
 ### 🏗️ Tasks
-- TASKS
-  - SUB TASKS
+- Create an API which will have the following features:
+  - Basic authentication
+  - A list of paginated Pokemons (each item should contain: name, height, weight and image). The result should be:
+    - sortable by name, height and weight;
+    - filterable by name, height range and weight range.
+  - The pagination should allow the clients to choose how many items are displayed on a page. Allowed values: 10, 20 and 50;
+  - Ability to add/edit/delete custom Pokemons.
+- Bonus points
+  - Use GraphQL instead of REST endpoints
+  - Use the Nest.js framework
   
 ### 📨 Submitting
 Upload your project to your Git & include the url of the repository in your application. Remember that the repository must be public!
